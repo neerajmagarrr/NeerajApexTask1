@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NEERAJ TASK1 GAME HUB</title>
+  <link rel="stylesheet" href="style1.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>MINYMANIA</h1>
+    </nav>
+  </header>
+
+  <div class="theme-switcher">
+    <button class="theme-btn" data-theme="original">Original</button>
+    <button class="theme-btn" data-theme="dark">Dark</button>
+    <button class="theme-btn" data-theme="pastel">Pastel</button>
+  </div>
+
+  <main>
+    <section class="welcome-section">
+      <h2>Welcome to MINYMANIA!</h2>
+      <p>I'm Neeraj Pappu Magar, a B.Sc. Computer Science student with a passion for building interactive and fun digital experiences. MINYMANIA is a collection of exciting mini games designed to sharpen your mind and add a little fun to your day!
+        I am honored to work as a Web Development Intern with ApexPlanet Software Pvt. Ltd., where I continue to learn, grow, and bring creative ideas to life.</p>
+    </section>
+
+    <section class="game-section">
+      <h3>GAME1</h3>
+      <h2>Rock, Paper, Scissors</h2>
+      <div class="game-container">
+        <div class="container">
+          <div class="scoreboard">
+            <p>You: <span id="user-score">0</span></p>
+            <p>Computer: <span id="computer-score">0</span></p>
+          </div>
+          <div class="choices">
+            <button class="choice" data-choice="rock">Rock</button>
+            <button class="choice" data-choice="paper">Paper</button>
+            <button class="choice" data-choice="scissors">Scissors</button>
+          </div>
+          <div class="result">
+            <p id="user-choice">You chose: -</p>
+            <p id="computer-choice">Computer chose: -</p>
+            <h2 id="result-text">Make your move!</h2>
+          </div>
+          <button id="reset-btn">Reset Game</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 MINYMANIA BY NEERAJMAGAR. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
